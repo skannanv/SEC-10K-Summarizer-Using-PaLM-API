@@ -19,7 +19,7 @@ To run the application locally, follow these steps:
    ```
 3. Run the Streamlit app with the following command:
    ```
-   streamlit run secmethod.py
+   streamlit run app.py
    ```
 4. Access the app in your web browser at the provided URL (typically `http://localhost:8501`).
 
