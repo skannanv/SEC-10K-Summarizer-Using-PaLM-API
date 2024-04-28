@@ -44,7 +44,7 @@ def analyze_sentiment(text):
     return sentiment
 
 # Initialize SEC Extractor API
-extractorApi = ExtractorApi("c905a34a80b5a9ff1420f43193a4af1d202ab63b69060918470fd486669461d0")
+extractorApi = ExtractorApi("YOUR_API_KEY")
 palm.configure(api_key=config.API_KEY)
 # Streamlit UI
 st.title("SEC Filing Summarization App")
