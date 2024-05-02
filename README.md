@@ -2,6 +2,17 @@
 
 This Streamlit web application allows users to summarize sections of SEC filings using AI-powered text summarization. Users can input the URL of the SEC filing and select the section they want to summarize. The application then extracts the text from the specified section, cleans it, and generates a concise summary using Google's PaLM API.
 
+# What is an SEC filing?
+
+The SEC filing is a financial statement or other formal document submitted to the U.S. Securities and Exchange Commission. Public companies, certain insiders, and broker-dealers are required to make regular SEC filings.
+
+# What is a 10-K?
+
+- A 10-K is a comprehensive report filed annually by public companies about their financial performance.
+- The report is required by the U.S. Securities and Exchange Commission (SEC) and is far more detailed than the annual report.
+- Information in the 10-K includes corporate history, financial statements, earnings per share, and any other relevant data.
+- The 10-K is a useful tool for investors to make important decisions about their investments.
+
 ## Features
 
 - Summarize sections of SEC filings into bullet points.
