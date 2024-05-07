@@ -37,7 +37,7 @@ def summarize_text_chunks(text_chunks, model):
 
 
 # Initialize SEC Extractor API
-extractorApi = ExtractorApi("9458b344ac5df97a8178aeb1751e759b5ce49528e35de2b365f7c813ce4dc23c")
+extractorApi = ExtractorApi("YOUR_API_KEY")
 palm.configure(api_key=config.API_KEY)
 # Streamlit UI
 st.title("SEC Filing Summarization App")
